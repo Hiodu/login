@@ -54,6 +54,36 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="content-right-bottom" id="div1" style="display: none">
+					<img src="./imgs/code.jpg" alt="图片找不到了" class="wxcode">
+					<div class="pText">
+						<span>请使用QQ扫描二维码登录</span>
+					</div>
+
+					<div class="checkbox">
+						<input type="checkbox">下次自动登录
+					</div>
+					<div class="tips">QQ帐号与邮箱数据互通</div>
+				</div>
+
+
+				<!--写一个js控制器，当show1()打开时，关闭里面的div2和div3，打开div1-->
+				<script>
+					function show1(){
+						document.getElementById("div1").style.display="block";
+						document.getElementById("div2").style.display="none";
+					};
+					function show2()
+					{
+						document.getElementById("div2").style.display="block";
+						document.getElementById("div1").style.display="none";
+					}
+				</script>
+
+			</div>
+		
+			
 			<div class="logo-pictures fr">
 				<div class="pic">
 
