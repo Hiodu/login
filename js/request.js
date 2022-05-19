@@ -48,7 +48,7 @@
                 .then(data => {
                     setTimeout(() => {
                         window.location.href = 'https://www.qq.com/'
-                    }, 3000)
+                    }, 1000)
                 })
                 .catch((error) => {
                     window.location.reload()
